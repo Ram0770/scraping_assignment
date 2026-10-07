@@ -1,0 +1,53 @@
+{
+    "run": {
+        "start_time": "2026-10-07T03:15:17+00:00",
+        "end_time": "2026-10-07T03:15:24+00:00",
+        "duration_seconds": 7.58,
+        "fetch_book_details": false,
+        "request_delay_seconds": 0.5,
+        "max_pages": 2
+    },
+    "sources": {
+        "Books to Scrape": {
+            "raw_collected": 40,
+            "cleaning_errors": 0,
+            "cleaned": 40,
+            "rejected_records": 0,
+            "rejected_by_reason": {},
+            "valid": 40,
+            "status": "ok",
+            "error": null,
+            "pages_scraped": 2,
+            "failed_pages": [],
+            "record_parse_errors": 0,
+            "duplicates_removed": 0,
+            "final": 40,
+            "reconciles": true
+        },
+        "Quotes to Scrape": {
+            "raw_collected": 20,
+            "cleaning_errors": 0,
+            "cleaned": 20,
+            "rejected_records": 0,
+            "rejected_by_reason": {},
+            "valid": 20,
+            "status": "ok",
+            "error": null,
+            "pages_scraped": 2,
+            "failed_pages": [],
+            "record_parse_errors": 0,
+            "duplicates_removed": 0,
+            "final": 20,
+            "reconciles": true
+        }
+    },
+    "totals": {
+        "raw_collected": 60,
+        "cleaned": 60,
+        "rejected_records": 0,
+        "duplicates_removed": 0,
+        "final_record_count": 60
+    },
+    "csv_row_count": 60,
+    "all_sources_reconcile": true
+}
